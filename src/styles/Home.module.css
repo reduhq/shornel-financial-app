@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+}
+
+.aside{
+    background-color: black;
+    width: 20%;
+}
+
+.main_panel{
+    background-color: blue;
+    padding: 1.5rem;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.main_panel div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
