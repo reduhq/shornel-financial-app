@@ -1,0 +1,59 @@
+
+.panel_landing{
+    display: flex;
+    gap: 2rem;
+}
+
+.panel_landing .first{
+    width: 60%;
+    margin: auto;
+}
+
+.panel_landing .second{
+    width: 40%;
+    padding: 2rem;
+    margin: auto;
+}
+
+/* .navbar{
+    background-color: #000;
+} */
+
+.navbar div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .register{
+    padding: .5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.first h1{
+    font-size: 3rem;
+}
+
+.first h2{
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.first a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    background-color: #E0115F;
+    color: #fff;
+    border-radius: .5rem;
+}

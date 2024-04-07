@@ -1,9 +1,8 @@
-import './../styles/Login.module.css'
 
-export const Login = () => {
+export const Register = () => {
     return (
-        <div className='container'>
-            <h1>Iniciar Sesión</h1>
+        <div className="container">
+            <h1>Registrate</h1>
             <form action="">
                 <div>
                     <label htmlFor="username">Username</label>
@@ -13,7 +12,7 @@ export const Login = () => {
                     <label htmlFor="password">Contraseña</label>
                     <input type="password" id='password' name='password' placeholder='Tu contraseña'/>
                 </div>
-                <input type="submit" value='Iniciar sesión'/>
+                <input type="submit" value='Crear Cuenta'/>
             </form>
         </div>
     )
