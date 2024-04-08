@@ -6,6 +6,7 @@ import { Landing } from "./pages/Landing"
 import { Home } from "./pages/Home"
 import { Register } from "./pages/Register"
 import { MetodoEOQ } from "./pages/calculators/MetodoEOQ"
+import { MetodoMantenimientoCorrectivo } from "./pages/calculators/MetodoMantenimientoCorrectivo"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         {/* Calculators */}
         <Route path="/metodo-eoq" element={<MetodoEOQ/>} />
+        <Route path="/mantenimiento-correctivo" element={<MetodoMantenimientoCorrectivo/>} />
     </Routes>
     </>
   )

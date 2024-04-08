@@ -9,7 +9,7 @@ export const Home = () => {
             </div>
             <div className={styles.main_panel}>
                 <CalculatorItem title="Método EOQ" redirect_url="/metodo-eoq"/>
-                <CalculatorItem title="Método Mantenimiento Correctivo" redirect_url="mantenimiento-correctivo"/>
+                <CalculatorItem title="Método Mantenimiento Correctivo" redirect_url="/mantenimiento-correctivo"/>
 
             </div>
         </div>
