@@ -1,5 +1,6 @@
 .card{
-    background-color: red;
+    /* background-color: red; */
+    border: 1px solid #000;
     height: 10rem;
     width: 10rem;
     border-radius: .5rem;
@@ -15,3 +16,18 @@
     font-weight: normal;
     font-size: 1.5rem;
 }
+
+@media (max-width: 600px) {
+    .card{
+        height: 7rem;
+        width: 7rem;
+        
+        
+    }
+    .card h2{
+        font-size: 1rem;
+    }
+
+}
+
+

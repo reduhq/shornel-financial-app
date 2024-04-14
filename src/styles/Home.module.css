@@ -8,11 +8,11 @@
 }
 
 .main_panel{
-    background-color: blue;
+    /* background-color: blue; */
     padding: 1.5rem;
     width: 80%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 1rem;
 }
 
@@ -20,4 +20,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:600px) {
+    .main_panel{
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
 }
